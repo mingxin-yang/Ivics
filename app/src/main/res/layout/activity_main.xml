@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mx.ivics.MainActivity">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="0,1,2,3">
+        <TableRow>
+            <Button
+                android:id="@+id/host"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="host" />
+
+            <Button
+                android:id="@+id/obu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="obu" />
+
+            <Button
+                android:id="@+id/participant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="participant" />
+            <Button
+                android:id="@+id/rsu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rsu" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/mapResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="mapResult" />
+
+            <Button
+                android:id="@+id/boxSetting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="boxSetting" />
+
+            <Button
+                android:id="@+id/rsiResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="rsiResult" />
+            <Button
+                android:id="@+id/target"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="target" />
+        </TableRow>
+        <TableRow>
+
+
+            <Button
+                android:id="@+id/trafficLightResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="trafficLightResult" />
+
+            <Button
+                android:id="@+id/trafficLight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="trafficLight" />
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="register" />
+            <Button
+                android:id="@+id/trafficIncident"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="trafficIncident" />
+        </TableRow>
+        <TableRow>
+
+
+            <Button
+                android:id="@+id/permission"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="permission" />
+
+            <Button
+                android:id="@+id/logicMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="logicMap" />
+        </TableRow>
+
+
+
+
+
+    </TableLayout>
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="qqq"
+        android:singleLine="false"
+
+        android:maxLines="100"
+
+        android:scrollbars="vertical" />
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+</LinearLayout>
